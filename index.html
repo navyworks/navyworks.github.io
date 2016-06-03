@@ -4,15 +4,91 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="description" content="NavyWorksのポートフォリオです。">
+    <title>Navy Works Portfolio</title>
+    <style type="text/css">
+      body {
+        font-size: 14px;
+      }
+      
+      header {
+        background: #333;
+      }
+      
+      h1 {
+    	padding: .75em 0;
+    	border-top: 1px solid #ccc;
+    	border-bottom: 1px solid #ccc;
+    	color:#fff;
+      }
+      
+      table {
+        border-collapse: collapse;
+        text-align: left;
+        line-height: 1.5;
+      }
+      
+      table th {
+        width: 150px;
+        padding: 10px;
+        font-weight: bold;
+        vertical-align: top;
+        border: 1px solid #ccc;
+      }
+      
+      table td {
+        width: 350px;
+        padding: 10px;
+        vertical-align: top;
+        border: 1px solid #ccc;
+      }
+
+      .profile {
+        background: #CCFFFF;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+
+      footer {
+        margin-top: 20px;
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <h1>Navy Works Portfolio</h1>
+    </header>
+    <div class="container">
+      <div class="profile">
+        <h3>■プロフィール</h3>
+        <p>今は趣味でプログラミングを勉強しています。将来的にはプログラマーとして仕事をしたいと考えています。<br />
+        私のGitHubのユーザページは<a href="https://github.com/navyworks/" target="_blank">こちら</a>です。</p>
+      </div>
+      <table>
+       <thead>
+         <tr>
+             <td>アプリケーション</td><td>説明</td>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+             <td>TEXTTEXTTEXTTEXTTEXT</td><td>○○○○○○○○○○○○○○○○○○○○○○○○○○○○</td>
+         </tr>
+         <tr>
+             <td>TEXTTEXTTEXTTEXTTEXT</td><td>○○○○○○○○○○○○○○○○○○○○○○○○○○○○</td>
+         </tr>             
+         <tr>
+             <td>TEXTTEXTTEXTTEXTTEXT</td><td>○○○○○○○○○○○○○○○○○○○○○○○○○○○○</td>
+         </tr>
+       </tbody>
+      </table>
+    </div>
+    <footer>
+      <div class="copyright">© 2016 Navy Works Portfolio</div>
+    </footer>
   </body>
 </html>
